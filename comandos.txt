@@ -1,0 +1,15 @@
+-> Primeiros passos, configuração
+git config --global user.name
+git config --global user.email
+
+=>Inicializando Repositorio
+git init
+=> add arquivos salvar
+git add .
+git commit -m "first commit"
+
+-> add Repositorio remoto - Github
+git remote add origin https://github.com/CleitonRah/Projeto_github.git
+-> enviar
+git push -u origin main
+
